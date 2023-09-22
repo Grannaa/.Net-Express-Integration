@@ -1,5 +1,6 @@
 # .Net-Express-Integration
 Proyecto en el que se accede a un servicio de node.js desde una aplicación de escritorio hecha en C#
+Las notas que crea se llaman "nota_n.txt" y los logs que crea por cada interacción se escriben en el server.log
 
 # Instrucciones para la ejecución
 - Instalar .NET runtime version 6.0
