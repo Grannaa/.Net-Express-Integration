@@ -23,7 +23,7 @@ router.post('/', function (req, res) {
     }
     fs.writeFileSync("./nota_" + i + ".txt", req.body.nota);
     cont_fichero++;
-    serverLog("Agregada nota numero " + i + "Con texto: " + req.body.nota);
+    serverLog("Agregada nota numero " + i + " Con texto: " + req.body.nota);
     res.send("Fichero Guardado!");    
 });
 
